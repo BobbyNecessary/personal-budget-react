@@ -23,10 +23,9 @@ function App() {
         <Switch>
           <Route path="/about"><AboutPage/></Route>
           <Route path="/login"><LoginPage/></Route>
-          <Route path="/homepage"><HomePage/></Route>
+          <Route path="/"><HomePage/></Route>
         </Switch>
       </div>
-      <HomePage/>
       <Footer/>
 
     </Router>
